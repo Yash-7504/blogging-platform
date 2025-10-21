@@ -1,7 +1,7 @@
 import { z } from "zod";
 import { db, categories } from "../db";
 import { router, publicProcedure } from "../trpc";
-import { eq, ilike } from "drizzle-orm";
+import { eq } from "drizzle-orm";
 
 const baseCategory = z.object({
   name: z.string().min(1).max(100),

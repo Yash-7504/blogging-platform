@@ -44,7 +44,7 @@ export default function PostPage() {
               </svg>
             </div>
             <h1 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Post not found</h1>
-            <p className="text-gray-600 dark:text-gray-300 mb-6">The post you're looking for doesn't exist or has been removed.</p>
+            <p className="text-gray-600 dark:text-gray-300 mb-6">The post you're looking for does not exist or has been removed.</p>
             <Link 
               href="/" 
               className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:focus:ring-offset-gray-800"

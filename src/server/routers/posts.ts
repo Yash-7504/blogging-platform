@@ -1,7 +1,7 @@
 import { z } from "zod";
 import { db, posts, postsToCategories, categories } from "../db";
 import { router, publicProcedure } from "../trpc";
-import { and, desc, eq, inArray, sql } from "drizzle-orm";
+import { desc, eq, inArray, sql } from "drizzle-orm";
 
 
 // Types - Updated to match database schema
